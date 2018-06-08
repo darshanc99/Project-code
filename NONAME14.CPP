@@ -1,6 +1,7 @@
 /*
   By @dc250999
   star light program :)
+  Krishnamurthy number program
 */
 #include<stdio.h>
 #include<conio.h>
