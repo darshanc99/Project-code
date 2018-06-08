@@ -6,7 +6,7 @@
 #include<conio.h>
 void main()
 {
- int n,r,sum=0,temp;
+ int n,r,sum=0,temp,result=1;
  clrscr();
  printf("Enter the number:");
  scanf("%d",&n);
@@ -15,7 +15,12 @@ void main()
  {
   r=n%10;
   n=n/10;
-  sum=sum+r*r*r;
+   while(r>0)
+   {
+    result=result*r;
+     r--;
+   }
+  sum=sum+r;
  }
  if(sum==temp)
  {
